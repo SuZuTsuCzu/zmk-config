@@ -47,7 +47,7 @@
             display-name = "Function";
             sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp C_NEXT C_PREV>;
             bindings = <
-          &bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &out OUT_BLE  &ext_power EP_ON  &trans  &trans  &trans           &trans           &bootloader
+          &bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &out OUT_BLE  &ext_power EP_ON  &ext_power EP_OFF  &trans  &trans           &trans           &bootloader
 &kp C_PP  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans            &trans  &trans  &trans           &trans           &trans           &kp C_PP
 &trans    &trans       &trans  &trans  &trans  &trans          &trans  &trans          &trans        &trans            &trans  &trans  &trans           &trans           &trans           &trans
 &trans    &trans       &trans  &trans  &trans  &trans          &trans  &trans          &trans        &trans            &trans  &trans  &trans           &trans                            &trans
